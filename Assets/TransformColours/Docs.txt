@@ -1,0 +1,51 @@
+Documentation is online, follow the link below to view it
+Link: https://carter.games/transformcolours
+
+
+Offline Documentation Copy:
+
+
+Contributors: Jonathan Carter
+Documentation Valid for Version: 1.1.5
+Last Updated: 05/10/2020
+
+
+Contents:
+
+1 - Package Information
+2 - Installing The Asset
+    2.1 - Changes between 2D/3D view
+3 - Error Messages
+4 - Common Problems
+
+
+1) Package Information
+The package has 1 main folder & 3 files:
+
+Editor/Carter Games/Transform Colours: TransformColours.cs
+Readme: Text file that goes over the changelog for the asset.
+Docs: Text file that links to here and provides an offline copy of this page.
+
+
+2) Installing The Asset
+Once the package has been imported into the project, move the contents into your root assets folder, place the contents of the editor folder into your editor folder if you have one already. When the script is moved the editor will need update which it does automatically. That is legit all you need to do, to check if the asset is working, simply select a gameobject which has the transform component on it, the colours should already be there.
+
+Changing between 2D/3D view
+
+To change between 2D & 3D view, simply select the option on the main navigation bar under the following path:
+Carter Games/Transform Colours/Switch 2D-3D View
+
+Once pressed the editor will update to switch between which ever view you have selected. This change will save between projects.
+
+
+3) Error Messages
+In theory there should be no error messages coming from this script, if you do get an unexpected error from this asset please do report it to us...
+
+
+4) Possible Problems
+
+The colours have not updated:
+Double check the editor has updated and that the script is in the assets/editor folder in your unity project.
+
+My transform componenet has nothing under it:
+Please try re-installing the asset and letting the editor update, if this persists please let us know.
